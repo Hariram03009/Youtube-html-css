@@ -8,11 +8,6 @@ Sidebar: On the left side of the page, there is a sidebar containing links to di
 
 Video Player: When a user clicks on a video thumbnail, a video player pops up in the center of the screen, allowing them to watch the video. The player includes controls for play/pause, volume, fullscreen mode, and video quality.
 
-Comments Section: Below the video player, there is a section for comments and discussions related to the video. Users can read comments, leave replies, and engage with other viewers.
-
 Footer: At the bottom of the page, there is a footer containing links to important pages such as About, Help, Press, and Copyright. It may also include social media icons for sharing content on other platforms.
 
 Overall, the YouTube frontend design aims to provide a seamless and intuitive experience for users to discover, watch, and interact with videos on the platform. The use of HTML and CSS ensures that the interface is responsive and accessible across different devices and screen sizes.
-
-
-the description is from ChatGPT 
