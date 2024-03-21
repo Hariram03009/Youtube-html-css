@@ -1,0 +1,21 @@
+.Thumbnail: Styles the thumbnail images of the videos to take up 100% of their container's width.
+
+.videotitle: Styles the title of the videos. It sets a pointer cursor, black color, font size of 14 pixels, font weight of 500, and adjusts margins for proper spacing.
+
+.videoauthor, .videostats: Styles the author and statistics (views and upload date) of the videos. It sets a font size of 12 pixels, a gray color, and adjusts margins for proper spacing.
+
+.videoauthor: Further styles the video author, adjusting the bottom margin to create a space between the author and the statistics.
+
+.video-preview: This class doesn't have any specific styling in the provided CSS but likely serves as a container for each individual video preview.
+
+.channel: Styles the channel icons, giving them a border-radius of 35 pixels and setting their width to 36 pixels.
+
+.channel-info: This class doesn't have any specific styling in the provided CSS but likely serves as a container for the channel-related information.
+
+.thumbrow: Styles the rows containing the thumbnails, setting a bottom margin of 12 pixels to create space between thumbnails.
+
+.video-info-grid: Styles the grid layout for video information, setting it to display as a grid with two columns (one for the channel icon and the other for video details).
+
+.video-grid: Styles the grid layout for the video previews, setting it to display as a grid with three columns, with a column gap of 15 pixels and a row gap of 40 pixels for spacing between videos.
+
+These CSS rules help to structure and style the various elements of the webpage to achieve the desired layout and appearance.

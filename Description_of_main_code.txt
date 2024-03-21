@@ -1,0 +1,32 @@
+<!DOCTYPE html>: This declaration specifies the HTML version being used (HTML5).
+
+<html>: The root element of the HTML document.
+
+<head>: Contains metadata about the HTML document, such as the title and links to external resources.
+
+<title>: Sets the title of the webpage.
+
+<link>: Links to external resources, such as fonts and CSS stylesheets.
+
+<body>: Contains the content of the webpage.
+
+.header: Defines a header section containing left, middle, and right sections.
+
+.left-section, .middle-section, .right-section: Divisions within the header for different content.
+.video-grid: Represents a grid layout for displaying video previews.
+
+.video-preview: Defines a section for each video preview, including a thumbnail and video information.
+
+.thumbrow: Contains the thumbnail image.
+
+.video-info-grid: Contains information about the video.
+
+.channel-info: Division for displaying channel-related information.
+
+.videotitle, .videoauthor, .videostats: Paragraphs for displaying the title, author, and view count of the video, respectively.
+
+The CSS stylesheets referenced in the <head> section (general.css, header.css, video.css) are responsible for styling the 
+various elements on the webpage, such as fonts, colors, layout, etc.  Overall, this HTML structure is designed to create a
+ webpage layout resembling that of YouTube.
+
+ 
