@@ -37,6 +37,7 @@
     display:flex;
     align-items:center;
     justify-content:space-between;
+    
     margin-right: 24px;
     flex-shrink: 0;
 }
@@ -60,7 +61,58 @@
    background-color: rgb(240,240,240);
    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
    margin-left:-1px;
+
+
 }
+
+.search-button .tool-tip,
+.voice-search-button .tool-tip,
+.upl .tool-tip,
+.yap .tool-tip,
+.notf .tool-tip{
+  font-family: roboto,arial;
+  position:absolute;
+  background-color: gray;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top:7px ;
+  color: white;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -40px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space:nowrap;
+
+}
+
+.search-button:hover .tool-tip,
+.voice-search-button:hover .tool-tip,
+.upl:hover .tool-tip,
+.yap:hover .tool-tip,
+.notf:hover .tool-tip{
+  opacity: 1;
+}
+
+
+.search-button , .voice-search-button,.upl,.yap,.notf{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.up , .ya , .notf , .prop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 
 .voice-search-button{
     height:39px;
@@ -74,12 +126,12 @@
 .search-icon{
     height: 25px;
     display: flex;
-    padding-left:10px
+    
 }
 
 .voice-icon{
     height: 24px;
-    margin-top:4px
+   
 }
 
 
@@ -136,7 +188,7 @@
   }
 
   .notf{
-    position: relative;
+  
   }
   
   .not-count{
@@ -153,4 +205,6 @@
     color: white;
     border-radius: 10px;
   }
+
+
 
