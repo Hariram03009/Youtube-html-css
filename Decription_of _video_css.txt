@@ -18,4 +18,9 @@
 
 .video-grid: Styles the grid layout for the video previews, setting it to display as a grid with three columns, with a column gap of 15 pixels and a row gap of 40 pixels for spacing between videos.
 
+Hover Effects: Hover effects are implemented using the :hover pseudo-class. When certain elements are hovered over (e.g., .Mark, .plier, etc.), the opacity of the corresponding profile tooltip (profile-tooltip) is adjusted, creating a tooltip-like effect.
+
+Positioning and Layout: Various properties such as position, display, grid-template-columns, and margin are used to control the positioning and layout of elements within the webpage, ensuring proper alignment and spacing.
+
+Media Queries: Media queries (@media) are used to apply different styles based on the screen size. In this code, different grid layouts are defined for various screen sizes, ensuring the content adapts responsively to different devices.
 These CSS rules help to structure and style the various elements of the webpage to achieve the desired layout and appearance.
