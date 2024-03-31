@@ -94,6 +94,7 @@
    }
 
  .profile-tooltip{
+  pointer-events: none;
       display: grid;
       grid-template-columns: 50px 170px;
       border-radius: 5px;
@@ -104,12 +105,13 @@
       border-style: solid;
       padding: 10px;
       background-color: white;
-      pointer-events: none;
+      
    }
 
    .Mark,.plier,.snipe, .CSDojo, .Ted, .DT,
    .BI, .Thenx,.Techvision, .RL,.MRbeast{
     position: relative;
+    
    }
 
    
@@ -124,19 +126,23 @@
     color:black;
     margin-top: 1px;
     margin-bottom: 1px;
+    
    }
    
    
    .creator{
     padding: 7px;
+    
    }
    .cont{
     padding-left: 4px;
     color: rgb(160,160,160);
+   
    }
 
    .thumb-tooltip{
     margin-top: 5px;
+    pointer-events: none;
    }
 
    .hchannel{
@@ -144,6 +150,7 @@
     border-radius: 25px;
     margin-right: 10px;
     padding-left: -4px;
+    pointer-events: none;
    }
 
    .Mark:hover .profile-tooltip,
@@ -162,7 +169,5 @@
     transition:opacity 0.15s
    }
    
-
-    
 
 

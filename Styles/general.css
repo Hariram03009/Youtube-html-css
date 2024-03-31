@@ -11,6 +11,11 @@ body{
     padding-right: 24px;
     background-color: rgb(248,248,248);
     margin-bottom: 50px;
+    background-image: url(image/yt_icon_rgb.ico);
+    background-position: 720px 320px ;
+    background-attachment: fixed;
+    background-size:100px auto;
+    background-repeat:no-repeat;
 }  
 
 
